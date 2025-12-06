@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Producto Uno",
+    "descripcion": "Descripción producto uno en string",
+    "precio": 1000
+  },
+  {
+    "id": 2,
+    "nombre": "Producto Dos",
+    "descripcion": "Descripción producto dos en string",
+    "precio": 2500
+  },
+  {
+    "id": 1765063026648,
+    "nombre": "Producto Tres",
+    "descripcion": "Descripción producto tres en string",
+    "precio": 9999
+  },
+  {
+    "id": 1765063172397,
+    "nombre": "Producto Cuatro",
+    "descripcion": "Descripción producto cuatro en string",
+    "precio": 4567
+  }
+]

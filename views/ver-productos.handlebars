@@ -1,0 +1,16 @@
+<h2>Nuestros Productos</h2>
+<div class="row">
+    {{#each productos}}
+    <div class="col-md-4 mb-3">
+        <div class="card h-100">
+            <div class="card-body">
+                <h5 class="card-title">{{this.nombre}}</h5>
+                <p class="card-text">{{this.descripcion}}</p>
+                <h6 class="text-success">Precio: ${{this.precio}}</h6>
+            </div>
+        </div>
+    </div>
+    {{else}}
+    <p>No hay productos disponibles.</p>
+    {{/each}}
+</div>
